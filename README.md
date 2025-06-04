@@ -1,6 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
+Name : Robinson J
+Reg no : 2122230401 
 Date of experiment :
 
 
@@ -15,17 +15,11 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
- 
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
-
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 4.	 Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
-
 6.	Click OK to see/view the output of your program on the Emulator screen. 
-
-
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
 
@@ -78,25 +72,59 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```nasm
+MOV AL, 10H
+MOV BL, 20H
+ADD AL, BL
+HLT
+```
 ## Output  
+
+![image](https://github.com/user-attachments/assets/ee62cffc-05cb-49b7-b1ac-940d24899e57)
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+
+```nasm
+MOV AL, 30H
+MOV BL, 20H
+SUB AL, BL
+HLT
+```
  
 ## Output  
+
+![image](https://github.com/user-attachments/assets/83a23924-db96-490b-a76d-512338f60aac)
+
+
 ## Multiplication alp 
+
+```nasm
+MOV AL, 30H
+MOV BL, 20H
+MUL BL
+HLT
+```
+
  ## Output  
 
+![image](https://github.com/user-attachments/assets/5a2597f4-75a5-4e5d-b56d-91f36b96c48e)
 
 ## Division alp 
 
+```nasm
+MOV AL, 30H
+MOV BL, 15H
+DIV BL
+HLT
+```
+
 ## Output  
 
+![image](https://github.com/user-attachments/assets/1d8ebe67-2745-4558-890f-3f43f9782d9a)
 
 ## Result :
- 
+ Successfully written and executed ALP on fundamental arithmetic and logical operations
 
 
 
