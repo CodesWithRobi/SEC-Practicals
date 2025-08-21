@@ -108,24 +108,28 @@ print("Root Mean Square Error = ", rmse)
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
-
 #### To Read Head and Tail Files
-
+<img width="281" height="240" alt="image" src="https://github.com/user-attachments/assets/6294cf5e-bb21-4f42-accf-2f563f78e667" />
+<img width="341" height="301" alt="image" src="https://github.com/user-attachments/assets/460a758b-6ed5-478e-ae24-8b9e36978bc8" />
 
 #### Compare Dataset
+<img width="834" height="264" alt="image" src="https://github.com/user-attachments/assets/81797ab8-0251-4d58-b941-e19f7cd28677" />
 
 
 #### Predicted Value
+<img width="851" height="270" alt="image" src="https://github.com/user-attachments/assets/f005b881-8977-4c12-b78c-bb6da9798e7e" />
 
 
 #### Graph For Training Set
+<img width="777" height="608" alt="image" src="https://github.com/user-attachments/assets/def2a75f-7dd1-4afd-839b-f106ef8e177a" />
 
 
 #### Graph For Testing Set
+<img width="787" height="601" alt="image" src="https://github.com/user-attachments/assets/ac87e9b6-86aa-49c9-b737-e4bbf6064c6e" />
 
 
 #### Error
+<img width="504" height="84" alt="image" src="https://github.com/user-attachments/assets/81f7e061-9da3-417c-9b58-d412fa032ec8" />
 
 
 ## Result:
