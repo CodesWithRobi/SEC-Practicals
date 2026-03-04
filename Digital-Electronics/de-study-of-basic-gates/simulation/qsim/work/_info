@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Quartus II\EXP_1a\simulation\qsim
+vGATES_TT
+Z1 !s100 48Ff`l9fg2l<X;RN6haSP0
+Z2 IILeaP>c=D6HhLbdhHg=fH3
+Z3 VGP<D^Uim_C;Rd5NGLW3ZN1
+Z4 dX:\SAVEETHA\S2\DE\study-of-basic-gates\simulation\qsim
+Z5 w1709868969
+Z6 8GATES_TT.vo
+Z7 FGATES_TT.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|GATES_TT.vo|
+Z10 o-work work -O0
+Z11 n@g@a@t@e@s_@t@t
+!i10b 1
+!s85 0
+Z12 !s108 1709868970.685000
+Z13 !s107 GATES_TT.vo|
+!s101 -O0
+vGATES_TT_vlg_check_tst
+!i10b 1
+Z14 !s100 =8;B;zKHA@B`j>gGJF=ZY1
+Z15 IMbD=6YnVKHNGX]A25fC3o2
+Z16 VXY7<Y>XingjIli6mR^j;D0
+R4
+Z17 w1709868968
+Z18 8GATES_TT.vt
+Z19 FGATES_TT.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1709868970.784000
+Z21 !s107 GATES_TT.vt|
+Z22 !s90 -work|work|GATES_TT.vt|
+!s101 -O0
+R10
+Z23 n@g@a@t@e@s_@t@t_vlg_check_tst
+vGATES_TT_vlg_sample_tst
+!i10b 1
+Z24 !s100 :XLI]2T`CPFIX:Z7iF[Hk2
+Z25 I1kS[2I>LIY0bJF5H4<`mU3
+Z26 VNnCk00;TK6gLIf3@SWU0H3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@g@a@t@e@s_@t@t_vlg_sample_tst
+vGATES_TT_vlg_vec_tst
+!i10b 1
+Z28 !s100 GXee[FVlRMa^z?h5X6M0c0
+Z29 IKenVdDVL2obic[Sn9foPE0
+Z30 VF=8en2O^H<^EWj0h0CQnc1
+R4
+R17
+R18
+R19
+Z31 L0 316
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@g@a@t@e@s_@t@t_vlg_vec_tst
