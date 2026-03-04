@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Quartus II\EXP_2\simulation\qsim
+vBoolean_min
+Z1 !s100 YjdhmZoUQ>Xc3@i8SJ@Bi3
+Z2 IB2?HhXV]<gLo`]P:gb09L2
+Z3 VX85MB?o3bh[HY_LW2_E8B0
+Z4 dX:\SAVEETHA\S2\DE\de-boolean-function-minimization\simulation\qsim
+Z5 w1711333963
+Z6 8Boolean_min.vo
+Z7 FBoolean_min.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Boolean_min.vo|
+Z10 o-work work -O0
+Z11 n@boolean_min
+!i10b 1
+!s85 0
+Z12 !s108 1711333967.898000
+Z13 !s107 Boolean_min.vo|
+!s101 -O0
+vBoolean_min_vlg_check_tst
+!i10b 1
+!s100 5lS^YRkJ>TVRjmIl;=Wc03
+I;3HPB>RQNBEa2Yjo>4X]C3
+Z14 Vbc?J8>2k2h5deK3DBV[Z^2
+R4
+Z15 w1711333961
+Z16 8Boolean_min.vt
+Z17 FBoolean_min.vt
+L0 71
+R8
+r1
+!s85 0
+31
+Z18 !s108 1711333968.028000
+Z19 !s107 Boolean_min.vt|
+Z20 !s90 -work|work|Boolean_min.vt|
+!s101 -O0
+R10
+Z21 n@boolean_min_vlg_check_tst
+vBoolean_min_vlg_sample_tst
+!i10b 1
+Z22 !s100 m8a_2HnfGUTHzi@Q:OXTG0
+Z23 If>zGEYe9ZdMk>@kW`Na2a3
+Z24 VQVeVQain8[8jGlzP3`lLl0
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 n@boolean_min_vlg_sample_tst
+vBoolean_min_vlg_vec_tst
+!i10b 1
+!s100 >4[a<GFS`N3N:nXlZ@<^I0
+IDeaI8?kkHT7>z12`n7<J82
+Z26 VFL<h=JhS2c3XM1f_K7jJ31
+R4
+R15
+R16
+R17
+Z27 L0 193
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z28 n@boolean_min_vlg_vec_tst
