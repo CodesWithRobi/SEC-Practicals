@@ -1,0 +1,19 @@
+@relation 'weather-weka.filters.unsupervised.attribute.Add-TNOM-NClimate-Lhot,warm,cold,foggy,rain-C6-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0'
+
+@attribute outlook {sunny,rainy,overcast}
+@attribute temparature numeric
+@attribute humidity numeric
+@attribute play {yes,no}
+@attribute Climate {hot,warm,cold,foggy,rain}
+
+@data
+sunny,1,0.666667,no,hot
+overcast,0.761905,0.833333,no,foggy
+sunny,0.904762,0.7,yes,warm
+rainy,0.285714,0.7,yes,rain
+rainy,0.190476,0.5,yes,cold
+rainy,0.047619,0.166667,no,foggy
+overcast,0,0,yes,foggy
+sunny,0.380952,1,no,hot
+sunny,0.238095,0.166667,yes,warm
+rainy,0.52381,0.5,yes,cold
