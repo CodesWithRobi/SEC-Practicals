@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Quartus II\FULL_ADDSUB\simulation\qsim
+vFULL_addsub
+Z1 IN]_08l<7zRT>?fIF4mE0[1
+Z2 VUb8:Ffz]9XLm`aSA1Xem73
+Z3 dX:\SAVEETHA\S2\DE\de-FULL_ADDER_SUBTRACTOR\simulation\qsim
+Z4 w1711923349
+Z5 8FULL_addsub.vo
+Z6 FFULL_addsub.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|FULL_addsub.vo|
+Z9 o-work work -O0
+Z10 n@f@u@l@l_addsub
+!i10b 1
+Z11 !s100 D=nFRFnbSCUTzA;@<ADk:0
+!s85 0
+Z12 !s108 1711923351.587000
+Z13 !s107 FULL_addsub.vo|
+!s101 -O0
+vFULL_addsub_vlg_check_tst
+!i10b 1
+!s100 l@YGeaa`?5]7HX1XAd4`A2
+IHi]K2;d`Cjk[7nQ<G[=CW0
+Z14 V<6T=C7gRESGATfW0J79zI1
+R3
+Z15 w1711923348
+Z16 8FULL_addsub.vt
+Z17 FFULL_addsub.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z18 !s108 1711923351.724000
+Z19 !s107 FULL_addsub.vt|
+Z20 !s90 -work|work|FULL_addsub.vt|
+!s101 -O0
+R9
+Z21 n@f@u@l@l_addsub_vlg_check_tst
+vFULL_addsub_vlg_sample_tst
+!i10b 1
+Z22 !s100 Cl<m4Umcf0flofcR@>bdh3
+Z23 I<SP1I=Hz7LY2Jjmm2gdno0
+Z24 VAadm3Mi8l7XBIeOilbe@a1
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z25 n@f@u@l@l_addsub_vlg_sample_tst
+vFULL_addsub_vlg_vec_tst
+!i10b 1
+Z26 !s100 ;Y=`Y:;H1V=eUmoncCnbE3
+Z27 I4Sga2n:^Wde]61d94bcdf2
+Z28 VNG2YdfRHPk@SB5acdg1UM3
+R3
+R15
+R16
+R17
+Z29 L0 237
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z30 n@f@u@l@l_addsub_vlg_vec_tst
