@@ -30,6 +30,7 @@ while IFS= read -r repo_name || [ -n "$repo_name" ]; do
         *ARM*|*8086*|*keypad-lcd*) FOLDER="Microprocessors-Embedded" ;;
         *Prompting*|*PromptEngineering*|*PythonProgramWithAI*) FOLDER="Prompt-Engineering" ;;
         *Compiler*) FOLDER="Compiler-Design" ;;
+        *19MA222*|*Probability*) FOLDER="Probability-and-Queuing-Model" ;;
         *) FOLDER="Uncategorized-Misc" ;;
     esac
 
