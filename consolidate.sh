@@ -13,7 +13,7 @@ while IFS= read -r repo_name || [ -n "$repo_name" ]; do
     
     # Determine the target folder based on naming patterns
     case "$repo_name" in
-        *JAVA*|*DS_*) FOLDER="Data-Structures-Java" ;;
+        *JAVA*|*DS_*|*19AI307*) FOLDER="Data-Structures-Java" ;;
         *Cryptography*) FOLDER="Cryptography" ;;
         *ML*|*Machine-Learning*) FOLDER="Machine-Learning" ;;
         *AI*|*Search*|*search*|*Agent*|*Hill-Climbing*|*Minimax*) FOLDER="Artificial-Intelligence" ;;
