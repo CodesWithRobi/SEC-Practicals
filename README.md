@@ -31,6 +31,7 @@ The repository is clustered into course-specific directories. Below is an overvi
 * **`Cloud-Computing/`**: Cloud deployment models, case studies, and PBS encryption time calculations.
 * **`Internet-of-Things/`**: Arduino and ESP32 programming for sensor integrations (ultrasonic, soil moisture) and data uploading to the ThingSpeak cloud.
 * **`Web-Data-Mining/`**: Link analysis, Boolean models, Vector Space models, and web scraping scripts.
+* **`Advanced-Java-Web-Application/`**: Spring Boot web servers and REST endpoints — controllers, request mappings (`@RestController`, `@GetMapping`), and Maven builds.
 
 ### 🛠️ Additional Engineering Topics
 * **`Compiler-Design/`**: Lexical analysis and compiler construction basics.
@@ -41,7 +42,8 @@ The repository is clustered into course-specific directories. Below is an overvi
 
 * **Languages:** Java, Python, C, Bash, Verilog, 8086 Assembly.
 * **Tools & Environments:** Linux CLI, Git, Quartus Prime, Proteus Design Suite, Cisco Packet Tracer, Arduino IDE, Jupyter Notebooks.
-* **Libraries/Frameworks:** Scikit-Learn, Pandas, NumPy.
+* **Libraries/Frameworks:** Scikit-Learn, Pandas, NumPy, Spring Boot.
+* **Build Tools:** Maven.
 
 ## 👤 Author
 
