@@ -5,6 +5,13 @@ INPUT_FILE="all_repos.txt"
 
 echo "Starting clustered consolidation on categorized repos..."
 
+# Process repos passed as arguments, or the full manifest if none given
+if [ $# -gt 0 ]; then
+    REPO_LIST=$(printf '%s\n' "$@")
+else
+    REPO_LIST=$(cat "$INPUT_FILE")
+fi
+
 while IFS= read -r repo_name || [ -n "$repo_name" ]; do
     # Skip empty lines
     [ -z "$repo_name" ] && continue
@@ -12,7 +19,11 @@ while IFS= read -r repo_name || [ -n "$repo_name" ]; do
     echo "Categorizing $repo_name..."
     
     # Determine the target folder based on naming patterns
+    # NOTE: first match wins, and patterns are case-sensitive substrings.
+    # Subject-specific course codes MUST come before broad patterns like *AI*/*ML*
+    # (e.g. 19AI553 contains "AI", UML contains "ML" — both misrouted historically).
     case "$repo_name" in
+        *19AI553*|*AdvJava*) FOLDER="Advanced-Java-Web-Application" ;;
         *JAVA*|*DS_*|*19AI307*) FOLDER="Data-Structures-Java" ;;
         *Cryptography*) FOLDER="Cryptography" ;;
         *ML*|*Machine-Learning*) FOLDER="Machine-Learning" ;;
@@ -51,6 +62,6 @@ while IFS= read -r repo_name || [ -n "$repo_name" ]; do
     
     echo "Successfully merged $repo_name into $FOLDER/"
     echo "-----------------------------------"
-done < "$INPUT_FILE"
+done <<< "$REPO_LIST"
 
 echo "Clustering complete! Run 'git push origin main' to upload."
