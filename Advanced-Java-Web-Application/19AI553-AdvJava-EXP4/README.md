@@ -1,4 +1,4 @@
-# Exp-04-Spring-Boot-with-REST-API-and-Hibernate-Integration
+## Ex 04 -Spring Boot with REST API and Hibernate Integration
 
 ## AIM:
 To develop a Spring Boot application to store and retrieve data from a Movies database using Object Relational Mapping (ORM) with Hibernate and expose it via REST APIs.
@@ -30,15 +30,20 @@ PUT /movies/{id}
 
 DELETE /movies/{id}
 
+## Program
 
-## PROGRAM CODE (Main Files):
 ### application.properties
+
+```
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+```
+
 ### Movie.java
 
+```java
 @Entity
 public class Movie {
     @Id
@@ -51,12 +56,17 @@ public class Movie {
 
     // Getters and Setters
 }
+```
+
 ### MovieRepository.java
-java
-Copy
-Edit
+
+```java
 public interface MovieRepository extends JpaRepository<Movie, Long> {}
+```
+
 ### MovieController.java
+
+```java
 @RestController
 @RequestMapping("/movies")
 public class MovieController {
@@ -99,3 +109,6 @@ public class MovieController {
         }).orElse(ResponseEntity.notFound().build());
     }
 }
+```
+
+Output:

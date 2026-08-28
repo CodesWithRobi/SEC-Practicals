@@ -1,4 +1,4 @@
-# Exp_2_Simple-Spring-Boot-MVC-Application
+## Ex 02 -Simple Spring Boot MVC Application
 
 ## AIM:
 To develop a Simple Spring Boot MVC (Model-View-Controller) Application that uses a Controller to handle HTTP requests, a Model to pass data, and a View (Thymeleaf) to render dynamic HTML pages.
@@ -47,7 +47,9 @@ Run the Spring Boot application from your IDE or command line
 Access the Application:
 
 Open a browser and navigate to http://localhost:8080/
-## PROGRAM
+
+## Program
+```
 spring-mvc-demo/
 ├── src/
 │   └── main/
@@ -60,9 +62,11 @@ spring-mvc-demo/
 │           │   └── index.html
 │           └── application.properties
 ├── pom.xml
+```
 
-### pom.xml :
+### pom.xml
 
+```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
@@ -94,9 +98,11 @@ spring-mvc-demo/
         </dependency>
     </dependencies>
 </project>
+```
 
-### MvcApplication.java (Main Class):
+### MvcApplication.java (Main Class)
 
+```java
 package com.example.mvc;
 
 import org.springframework.boot.SpringApplication;
@@ -108,9 +114,11 @@ public class MvcApplication {
         SpringApplication.run(MvcApplication.class, args);
     }
 }
+```
 
-### HomeController.java (Controller):
+### HomeController.java (Controller)
 
+```java
 package com.example.mvc;
 
 import org.springframework.stereotype.Controller;
@@ -126,8 +134,11 @@ public class HomeController {
         return "index";  // refers to index.html in templates folder
     }
 }
+```
+
 ### index.html (View – inside src/main/resources/templates/):
 
+```html
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -137,8 +148,10 @@ public class HomeController {
     <h1 th:text="${message}">Default Message</h1>
 </body>
 </html>
+```
 
-### application.properties:
- server.port=8081
+### application.properties
 
+> server.port=8081
 
+Output:

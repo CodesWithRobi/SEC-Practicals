@@ -1,4 +1,5 @@
-# EXP05-Setting-Up-Spring-Security-in-a-Spring-Boot-Project
+## Ex 05 -Setting Up Spring Security in a Spring Boot Project
+
 ## AIM:
 To write a program for setting up Spring Security in a Spring Boot project to secure endpoints with basic authentication and role-based access control.
 
@@ -23,8 +24,11 @@ Run and test the app using a browser or Postman:
 
 Secure endpoints will prompt for username and password.
 
-## PROGRAM CODE:
-###pom.xml (Dependencies)
+## Program
+
+### pom.xml (Dependencies)
+
+```xml
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -35,7 +39,11 @@ Secure endpoints will prompt for username and password.
         <artifactId>spring-boot-starter-security</artifactId>
     </dependency>
 </dependencies>
+```
+
 ### SecurityConfig.java (Spring Boot 3.x / Spring Security 6+)
+
+```java
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
@@ -60,7 +68,11 @@ public class SecurityConfig {
         return new InMemoryUserDetailsManager(user);
     }
 }
-###HelloController.java
+```
+
+### HelloController.java
+
+```java
 @RestController
 public class HelloController {
 
@@ -74,3 +86,6 @@ public class HelloController {
         return "This is a secured endpoint. You are authenticated!";
     }
 }
+```
+
+Output:

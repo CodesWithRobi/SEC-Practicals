@@ -1,4 +1,4 @@
-# EXp_03_-Entity-Student-and-build-a-CRUD-operations-using-Spring-Boot-Hibernate-Configuration
+## Ex 03 -Entity Student and CRUD operations using Spring Boot Hibernate Configuration
 
 ## AIM:
 To develop a Spring Boot application that performs CRUD (Create, Read, Update, Delete) operations on a Student entity using Spring Data JPA (Hibernate).
@@ -38,9 +38,11 @@ PUT /students/{id} → Update student
 
 DELETE /students/{id} → Delete student
 
-##PROGRAM CODE
+## Program
 
 ### pom.xml
+
+```xml
 <dependencies>
     <!-- Spring Boot Web -->
     <dependency>
@@ -61,15 +63,22 @@ DELETE /students/{id} → Delete student
         <scope>runtime</scope>
     </dependency>
 </dependencies>
- ### application.properties
+```
 
+### application.properties
+
+```
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
 spring.datasource.password=
 spring.jpa.hibernate.ddl-auto=update
 spring.h2.console.enabled=true
+```
+
 ### Student.java
+
+```java
 package com.example.demo.model;
 import jakarta.persistence.*;
 @Entity
@@ -97,7 +106,11 @@ public class Student {
 
     public void setAge(int age) { this.age = age; }
 }
+```
+
 ### StudentRepository.java
+
+```java
 package com.example.demo.repository;
 
 import com.example.demo.model.Student;
@@ -105,7 +118,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {
 }
+```
+
 ### StudentController.java
+
+```java
 package com.example.demo.controller;
 
 import com.example.demo.model.Student;
@@ -153,7 +170,11 @@ public class StudentController {
         return "Student with ID " + id + " deleted successfully!";
     }
 }
+```
+
 ### DemoApplication.java
+
+```java
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -165,3 +186,6 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 }
+```
+
+Output:
