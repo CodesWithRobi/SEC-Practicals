@@ -234,13 +234,16 @@ public class MovieController {
 ## OUTPUT:
 
 ### POST /movies
+<img width="1254" height="843" alt="image" src="https://github.com/user-attachments/assets/b82c3a73-6aef-4cda-966e-f17242cc4ce5" />
 
 ### GET /movies
+<img width="1253" height="839" alt="image" src="https://github.com/user-attachments/assets/98208946-fc3d-40ff-b15e-f3cf89cca69d" />
 
 ### PUT /movies/{id}
+<img width="1256" height="836" alt="image" src="https://github.com/user-attachments/assets/9ba9f816-bf8a-4283-a5c3-8fb4d6308540" />
 
 ### DELETE /movies/{id}
-
+<img width="1254" height="832" alt="image" src="https://github.com/user-attachments/assets/5441ec26-c252-4a08-b433-f6cfda72e0f5" />
 
 ## Result
 Thus the development of a Spring Boot application to store and retrieve data from a Movies database is completed successfully
