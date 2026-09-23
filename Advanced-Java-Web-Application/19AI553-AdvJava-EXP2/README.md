@@ -121,7 +121,7 @@ public class MvcApplication {
 ```java
 package com.example.mvc;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Controller;secnt243/Ex.No.2_Simple-Spring-Boot-MVC-Application
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -155,3 +155,4 @@ public class HomeController {
 > server.port=8081
 
 Output:
+<img width="1112" height="706" alt="image" src="https://github.com/user-attachments/assets/9ccea704-b3b7-41ce-821f-64dcf26f9d88" />
