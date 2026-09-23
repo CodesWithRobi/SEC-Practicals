@@ -259,9 +259,13 @@ public class DemoApplication {
 ## OUTPUT:
 
 ## POST (localhost:8080/students):
+<img width="1245" height="841" alt="image" src="https://github.com/user-attachments/assets/bd28c75d-e69f-4182-8d46-e292a39f9b82" />
 
 ## GET (localhost:8080/students):
+<img width="1260" height="848" alt="image" src="https://github.com/user-attachments/assets/0fb8a38e-16a4-4574-8213-0d85e11c95f9" />
 
 ## PUT (localhost:8080/students/{id}):
+<img width="1249" height="835" alt="image" src="https://github.com/user-attachments/assets/0b6bd2de-b2ff-4cac-b65f-3f40bca317cd" />
 
 ## DELETE (localhost:8080/students/{id}):
+<img width="1245" height="838" alt="image" src="https://github.com/user-attachments/assets/f8a859ef-62c1-4183-a43b-e3ad114b0dd6" />
